@@ -1,0 +1,37 @@
+htmL{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serifbody{
+        background-color: #000
+    };
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-color: #222222;
+    color: lightgray;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
