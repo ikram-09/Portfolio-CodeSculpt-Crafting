@@ -37,6 +37,8 @@
           text-transform: uppercase;
           letter-spacing: 2px;
           cursor: pointer;
+          position: relative;
+          z-index: 999999;
           .FaPlus{
             margin-left: 10px;
           }
