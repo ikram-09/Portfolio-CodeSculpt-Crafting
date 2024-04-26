@@ -1,0 +1,17 @@
+.services{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .service-heading{
+
+        h1{
+            font-size: 100px;
+            margin: 0 auto;
+            text-align: end;
+            span{
+            }
+        }
+    }
+}
