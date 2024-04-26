@@ -1,5 +1,4 @@
 .services{
-    background-color: white;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -7,7 +6,12 @@
     .service-heading{
 
         h1{
-            font-size: 100px;
+            font-size: 140px;
+            line-height: 140px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
             margin: 0 auto;
             text-align: end;
             span{
