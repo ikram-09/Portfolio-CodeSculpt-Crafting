@@ -5,11 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     h1{
-        font-size: 100px;
+        font-size: 120px;
+        position: relative;
+        top: -100px;
     }
     .mountains{
-        background-image: url('/public/mountains.png');
+        background-image: url('/public/mountains4.png');
         background-size: cover;
         background-position: bottom;
         width: 100%;
