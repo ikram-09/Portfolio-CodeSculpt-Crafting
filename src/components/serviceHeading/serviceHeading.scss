@@ -6,7 +6,7 @@
     .service-heading{
 
         h1{
-            font-size: 140px;
+            font-size: 120px;
             line-height: 140px;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -14,6 +14,11 @@
             font-weight: 500;
             margin: 0 auto;
             text-align: end;
+            align-items: center;
+            img{
+                width: 200px;
+                border-radius: 50%;
+            }
             span{
             }
         }

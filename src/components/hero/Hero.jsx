@@ -52,7 +52,6 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>IKRAM DEV</motion.h2>
           <motion.h1 variants={textVariants}>Front-end Developer.</motion.h1>
           <motion.div className="buttons" variant={textVariants}>
-            {/* <motion.button variants={textVariants}>See the Latest Works</motion.button> */}
             <motion.button variants={textVariants}>
               Contact me
               <FaPlus className="FaPlus" />
