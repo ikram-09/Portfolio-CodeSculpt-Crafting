@@ -1,9 +1,10 @@
 import "./app.scss";
+import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Project from "./components/project";
-import ServiceHeading from "./components/serviceHeading/serviceHeading";
+import ServiceHeading from './components/serviceHeading/ServiceHeading'
 
 const App = () => {
   const projects = [
@@ -45,12 +46,12 @@ const App = () => {
       {projects.map((project) => {
         return <Project project={project} />;
       })}
-      <section>Services</section>
       <Parallax type="Porfolio" />
+      {/* <section>Services</section>
       <section>Porftolio1</section>
       <section>Porftolio2</section>
-      <section>Porftolio3</section>
-      <section id="Contact">Contact</section>
+      <section>Porftolio3</section> */}
+      <Contact id="Contact"/>
     </div>
   );
 };
