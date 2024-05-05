@@ -27,7 +27,7 @@ const Contact = () => {
           <motion.button style={{ x: xBg }}>GET IN TOUCH</motion.button>
         </div>
         <div className="arrow-img">
-          <img style={{ transform: `rotate(${rotate}deg)` }} src={arrowImg} alt="" />
+          <motion.img style={{ transform: `rotate(${rotate}deg)`, background:'red !important' }} src={arrowImg} alt="" />
         </div>
       </div>
       <div className="contact-here">
