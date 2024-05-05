@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           <div className="social-link">
             <a href="">Code by ikram</a>
-            <a href="">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ikram-mughal-4a6378259/" target="blank">LinkedIn</a>
             <a href="">Instagram</a>
             <a href="">Facebook</a>
           </div>

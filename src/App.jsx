@@ -9,28 +9,28 @@ import ServiceHeading from './components/serviceHeading/ServiceHeading'
 const App = () => {
   const projects = [
     {
-      title1: "Jomor",
-      title2: "Design",
+      title1: "Software",
+      title2: "Engineer",
       src: "jomor_design.jpeg",
     },
     {
-      title1: "La",
-      title2: "Grange",
+      title1: "Programmer",
+      title2: "Analyst",
       src: "la_grange.jpeg",
     },
     {
-      title1: "Deux Huit",
-      title2: "Huit",
+      title1: "Application",
+      title2: "Developer",
       src: "deux_huit_huit.jpeg",
     },
     {
-      title1: "Nothing",
-      title2: "Design Studio",
+      title1: "Systems",
+      title2: "Programmer",
       src: "nothing_design_studio.png",
     },
     {
-      title1: "Mambo",
-      title2: "Mambo",
+      title1: "Full-Stack",
+      title2: "Developer",
       src: "mambo_mambo.jpeg",
     },
   ];
