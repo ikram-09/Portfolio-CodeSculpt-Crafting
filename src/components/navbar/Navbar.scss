@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    transition: all ease 0.8s;
+
     span {
       font-weight: bold;
       cursor: pointer;
@@ -78,4 +80,13 @@
   100% {
     background-position: 180px;
   }
+}
+
+
+@media screen and (max-width: 1280px) {
+  .navbar{
+    .wrapper {
+      padding: 0 100px;
+  }
+}
 }

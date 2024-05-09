@@ -21,7 +21,7 @@ const App = () => {
     {
       title1: "Application",
       title2: "Developer",
-      src: "deux_huit_huit.jpeg",
+      src: "jomor_design1.jpeg",
     },
     {
       title1: "Systems",

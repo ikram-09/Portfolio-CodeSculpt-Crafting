@@ -1,10 +1,10 @@
 .services{
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px 0;
     .service-heading{
-
+        transition: all ease 0.8s;
         h1{
             font-size: 120px;
             line-height: 140px;
@@ -15,12 +15,29 @@
             margin: 0 auto;
             text-align: end;
             align-items: center;
+            transition: all ease 0.8s;
             img{
                 width: 200px;
                 border-radius: 50%;
+                transition: all ease 0.8s;
             }
             span{
             }
         }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .services{
+        .service-heading{
+            h1 {
+                font-size: 90px;
+                line-height: 100px;
+                img{
+                    width: 130px;
+                }
+            }
+        }
+
     }
 }

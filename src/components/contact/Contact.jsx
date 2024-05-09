@@ -6,15 +6,12 @@ import heroImg from "../../../public/20220912_220101 (1).png";
 
 const Contact = () => {
   const ref = useRef(null);
-
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start end", "end start"],
   });
 
   const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "150%"]);
-  const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
-
   return (
     <div className="contact" ref={ref}>
       <div className="main-container">
@@ -27,7 +24,7 @@ const Contact = () => {
           <motion.button style={{ x: xBg }}>GET IN TOUCH</motion.button>
         </div>
         <div className="arrow-img">
-          <motion.img style={{ transform: `rotate(${rotate}deg)`, background:'red !important' }} src={arrowImg} alt="" />
+          <img src={arrowImg} alt="" />
         </div>
       </div>
       <div className="contact-here">
