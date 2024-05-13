@@ -3,8 +3,13 @@ import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
+import Portfolio from "./components/portfolio/Portfolio";
 import Project from "./components/project";
 import ServiceHeading from './components/serviceHeading/ServiceHeading'
+import Word from './components/services/Word'
+
+const paragraph = "Take a digital leap with us. We excel in creating functional websites that flawlessly exhibit your brand, translating your ideas into a unique online identity."
+
 
 const App = () => {
   const projects = [
@@ -35,6 +40,8 @@ const App = () => {
     },
   ];
 
+  
+
   return (
     <div>
       <section id="Homepage">
@@ -43,14 +50,12 @@ const App = () => {
       </section>
       {/* <Parallax type="services" /> */}
       <ServiceHeading/>
+      <Word paragraph={paragraph}/>
       {projects.map((project) => {
         return <Project project={project} />;
       })}
       <Parallax type="Porfolio" />
-      {/* <section>Services</section>
-      <section>Porftolio1</section>
-      <section>Porftolio2</section>
-      <section>Porftolio3</section> */}
+      {/* <Portfolio/> */}
       <Contact id="Contact"/>
     </div>
   );
